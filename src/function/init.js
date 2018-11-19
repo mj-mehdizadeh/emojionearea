@@ -349,7 +349,7 @@ function($, emojione, blankImg, slice, css_class, emojioneSupportMode, invisible
                 }
 
                 event.returnValue = false;
-                event.stopPropagation();
+                // event.stopPropagation();
                 return false;
             }
 
